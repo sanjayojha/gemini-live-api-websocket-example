@@ -83,6 +83,19 @@ Use the `gemini-alt.js` example and remove the granular control of the user's se
 -   **Browser Compatibility:** Chrome is recommended for the best experience.
 -   **Audio Issues:** Ensure your microphone is properly connected and browser permissions are granted.
 
+## Web API used
+
+-   [mediaDevices API](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices)
+-   [MediaRecorder API](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder)
+-   [AudioContext API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API)
+-   [AudioWorkletProcessor](https://developer.mozilla.org/en-US/docs/Web/API/AudioWorkletProcessor)
+-   [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
+
+## Help and Resources
+
+-   [Gemini Live API documentation](https://ai.google.dev/gemini-api/docs/live-guide)
+-   [Gemini Live API references](https://ai.google.dev/api/live)
+
 ## License
 
 This project is for demonstration purposes. Please review Gemini's usage policies and terms of service before deploying to production.

@@ -7,7 +7,7 @@ let isPlaying = false;
 export const initializeAudioContext = async () => {
     if (!audioContext) {
         audioContext = new (window.AudioContext || window.webkitAudioContext)({
-            sampleRate: 24000, // OpenAI uses 24kHz
+            sampleRate: 24000, // Gemini uses 24kHz for output audio
         });
         console.log("AudioContext initialized for playback");
     }
