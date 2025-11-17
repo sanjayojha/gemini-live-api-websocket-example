@@ -1,0 +1,6 @@
+.aiResponseArea,
+.userArea {
+    min-height: 300px;
+    height: auto;
+    width: 350px;
+}

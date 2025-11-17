@@ -1,0 +1,6 @@
+.ddev
+todo.txt
+details.txt
+.env
+*.zip
+backups
