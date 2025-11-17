@@ -54,7 +54,7 @@ We have 2 versions of the Gemini API implementation.
 
 ### Documenation and API problem
 
-Since the Live API is in beta, many of the setup configurations do not work. For example, when I tried to set `languageCode: "en-IN"`, it throws an error "Unknown object languageCode". There are many such small issues with the documentation and API references.
+Since the Live API is in beta, many of the setup configurations do not work. For example, when I tried to set `languageCode: "en-IN"`, it throws an error "Unsupported language code 'en-IN' for model models/gemini-2.5-flash-native-audio-preview-09-2025". There are many such small issues with the documentation and API references.
 
 ## Voice Activity Detection (VAD)
 

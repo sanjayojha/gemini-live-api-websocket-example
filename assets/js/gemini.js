@@ -95,7 +95,7 @@ const initializeRealtime = async (socket) => {
                         voiceConfig: {
                             prebuiltVoiceConfig: { voiceName: "Fenrir" },
                         },
-                        //languageCode: "en-IN", //docs: https://ai.google.dev/api/generate-content#SpeechConfig, https://ai.google.dev/gemini-api/docs/live-guide#change-voice-and-language
+                        languageCode: "en-IN", //docs: https://ai.google.dev/api/generate-content#SpeechConfig, https://ai.google.dev/gemini-api/docs/live-guide#change-voice-and-language
                     },
                 },
                 systemInstruction: {
