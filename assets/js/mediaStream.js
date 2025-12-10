@@ -98,7 +98,7 @@ export const createAudioProcessor = async (stream, onAudioData) => {
         console.log("Loading AudioWorklet module...");
 
         // Load the audio worklet module
-        await audioContext.audioWorklet.addModule("/assets/js/audio-processor.worklet.js");
+        await audioContext.audioWorklet.addModule("assets/js/audio-processor.worklet.js");
 
         console.log("AudioWorklet module loaded successfully");
 
